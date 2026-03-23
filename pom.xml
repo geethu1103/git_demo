@@ -24,7 +24,7 @@
       <plugin>
   <groupId>ro.isdc.wro4j</groupId>
   <artifactId>wro4j-maven-plugin</artifactId>
-  <version>1.10.0</version> <!-- or latest available -->
+  <version>1.8.0</version> <!-- or latest available -->
 </plugin>
 
     <!-- Web dependencies -->
@@ -206,6 +206,12 @@
           <failOnNoGitDirectory>false</failOnNoGitDirectory>
         </configuration>
       </plugin>
+        <repositories>
+  <repository>
+    <id>central</id>
+    <url>https://repo.maven.apache.org/maven2</url>
+  </repository>
+</repositories>
 
       <plugin>
         <groupId>ro.isdc.wro4j</groupId>
